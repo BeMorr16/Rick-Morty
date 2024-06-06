@@ -1,0 +1,20 @@
+{
+  "name": "rickandmorty",
+  "type": "module",
+  "description": "Rick and Morty Site",
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "browser": "src/index.js",
+  "author": "Ben Morrison <bemorrison16@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest"
+  }
+}
